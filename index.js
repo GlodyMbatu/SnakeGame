@@ -165,6 +165,12 @@ function checkGameover(){
 
     }
 };
-function displayGameover(){};
+function displayGameover(){
+    ctx.font = "50px MV Boli";
+    ctx.fillStyle = "black";
+    ctx.textAlign = "center";
+    ctx.fillText("GAME OVER!", gameWidth / 2, gameHeight / 2);
+    running = false;
+};
 function resetGame(){};
 
